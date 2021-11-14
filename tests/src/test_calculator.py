@@ -7,4 +7,5 @@ def test_add():
 
 def test_subtract():
     assert cal.subtract(10,1) == 9
+    assert cal.subtract(10,5) == 5
     assert cal.subtract(5,1) == 4
